@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@import "./base.css";
+
+/* Warm, crafty palette: cream paper, terracotta thread, sage accents */
+@theme {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "DM Sans", system-ui, sans-serif;
+
+  --color-bg: #f8f3ea;
+  --color-surface: #fffcf6;
+  --color-ink: #2b2420;
+  --color-muted: #6e625a;
+  --color-line: #e5dacb;
+  --color-brand: #b4532f;
+  --color-brand-ink: #fffcf6;
+  --color-sage: #dfe3d2;
+  --color-sage-ink: #4b5a3c;
+
+  --radius-button: 9999px;
+  --radius-field: 0.875rem;
+  --radius-card: 1.5rem;
+}
+
+h1, h2, h3 {
+  font-variation-settings: "SOFT" 100, "opsz" 72;
+  letter-spacing: -0.02em;
+}
