@@ -4,6 +4,8 @@ A mobile-first website template for people who make and sell things — sewing, 
 
 **Sections:** Hero · Shop grid with category filters · Custom-order request form (size, fabric, deadline, budget) · About the maker · Upcoming markets · Reviews · FAQ
 
+**Setting up a new client? Start with [SETUP.md](SETUP.md):** what to ask the client for.
+
 ## Quick start
 
 ```sh
