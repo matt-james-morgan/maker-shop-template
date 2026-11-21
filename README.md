@@ -64,3 +64,13 @@ Demo photos are from [Unsplash](https://unsplash.com) (free to use under the [Un
 - lucas Favre (maker portrait)
 - Darling Arias (threads)
 - Ashley Diane Worsham (machine)
+
+## Phone-width check
+
+Every change gets this before it goes live (and before handing a site to a client):
+
+```sh
+npm run check:mobile
+```
+
+It starts the dev server, loads the home page at 320, 360, 390, 768 and 1280px in Chrome, and **fails if anything makes the page wider than the screen**, which is what makes a site look off-centre on phones. It names the element that sticks out, warns about tap targets under 44px, and saves full-page screenshots to `mobile-check/` (git-ignored). Look at the 360px ones. Check a deployed site with `BASE_URL=https://… npm run check:mobile`. Script: [`scripts/check-mobile.mjs`](scripts/check-mobile.mjs).

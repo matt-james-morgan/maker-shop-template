@@ -46,3 +46,5 @@ New products, sold-out items, new market dates? Send us the change and we'll upd
 ## Developer steps
 
 Everything above goes in [`src/site.config.ts`](src/site.config.ts): the endpoint in `formEndpoint`, products in `products`, and markets in `markets`. Photos: put the originals in `/photos`, run `npm run images`, and use the printed paths. Page title and link-preview text: [`index.html`](index.html). Details in [README.md](README.md).
+
+**Before launch, and after every change:** run `npm run check:mobile` and look at the 360px screenshots. It must pass. See the "Phone-width check" section in the README.

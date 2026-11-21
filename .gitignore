@@ -26,3 +26,6 @@ dist-ssr
 # Original photos (only the optimised copies in public/images are needed)
 photos/*
 !photos/.gitkeep
+
+# phone-width check screenshots
+mobile-check/
